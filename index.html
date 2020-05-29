@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <title>Basics</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+            rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="assets/styles/app.css" rel="stylesheet"/>
+</head>
+<body>
+<section id="calculator">
+
+    <div id="calc-actions">
+
+        <div class="grid-container">
+            <div class="screen display">
+                <input id="input-number" type="number" value="0"/>
+            </div>
+            <div class="btn action clear">AC</div>
+            <div class="btn function divide">
+                <button id="btn-divide" type="button">÷</button>
+            </div>
+            <div class="btn function multiply">
+                <button id="btn-multiply" type="button">×</button>
+            </div>
+            <div class="btn function subtract">
+                <button id="btn-subtract" type="button">−</button>
+            </div>
+            <div class="btn function add">
+                <button id="btn-add" type="button">+</button>
+            </div>
+            <div class="btn function result">
+                <button id="btn-result" type="button">=</button>
+            </div>
+            <div class="btn seven">7</div>
+            <div class="btn eight">8</div>
+            <div class="btn nine">9</div>
+            <div class="btn four">4</div>
+            <div class="btn five">5</div>
+            <div class="btn six">6</div>
+            <div class="btn one">1</div>
+            <div class="btn two">2</div>
+            <div class="btn three">3</div>
+            <div class="btn zero">0</div>
+            <div class="btn comma">,</div>
+            <div class="btn action inverse">+/−</div>
+            <div class="btn action percent">%</div>
+        </div>
+    </div>
+</section>
+<section id="results">
+    <h2 id="current-calculation">0</h2>
+    <h2>Result: <span id="current-result">0</span></h2>
+</section>
+<script src="assets/scripts/vendor.js"></script>
+<script src="assets/scripts/app.js"></script>
+</body>
+</html>
