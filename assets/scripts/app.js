@@ -1,10 +1,11 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
 
+// Gets user input from input field
 function getUserNumberInput() {
     return parseFloat(userInput.value);
 }
-ass
+
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
     const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
     outputResult(currentResult, calcDescription);
