@@ -4,7 +4,7 @@ let currentResult = defaultResult;
 function getUserNumberInput() {
     return parseFloat(userInput.value);
 }
-
+ass
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
     const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
     outputResult(currentResult, calcDescription);
