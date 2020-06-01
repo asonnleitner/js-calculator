@@ -5,14 +5,18 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <title>Basics</title>
-    <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-            rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="assets/styles/app.css" rel="stylesheet"/>
+    <script defer src="assets/scripts/vendor.js"></script>
+    <script defer src="assets/scripts/app.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="index.js"></script>
 </head>
 <body>
+<div id="app">
+    {{ message }}
+</div>
 <section id="calculator">
 
     <div id="calc-actions">
@@ -57,7 +61,5 @@
     <h2 id="current-calculation">0</h2>
     <h2>Result: <span id="current-result">0</span></h2>
 </section>
-<script src="assets/scripts/vendor.js"></script>
-<script src="assets/scripts/app.js"></script>
 </body>
 </html>
